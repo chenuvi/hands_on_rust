@@ -1,0 +1,7 @@
+[workspace.package]
+name = "hands_on_rust"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["first_step_with_rust"]
