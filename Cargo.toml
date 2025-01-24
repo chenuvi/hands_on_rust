@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [ "first_game_flappy_dragon","first_step_with_rust"]
+resolver = "2"
+members = ["first_game_flappy_dragon", "first_step_with_rust"]
