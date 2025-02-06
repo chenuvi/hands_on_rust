@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bracket-lib = "~0.8.7"
+bracket-lib = { version = "~0.8.7", default-features = false, features = ["opengl"] }
 
 [profile.release]
 opt-level = 3
@@ -12,3 +12,6 @@ lto = true
 codegen-units = 1
 panic = 'abort'
 strip = true
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
