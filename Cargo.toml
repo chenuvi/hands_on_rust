@@ -7,6 +7,7 @@ edition = "2021"
 resolver = "2"
 members = [
     "BasicDungeonCrawler/dungeon_crawl_map",
+    "BasicDungeonCrawler/dungeon_crawl_player",
     "first_game_flappy_dragon",
     "first_step_with_rust",
 ]

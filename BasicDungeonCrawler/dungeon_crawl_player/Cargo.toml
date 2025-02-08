@@ -1,0 +1,7 @@
+[package]
+name = 'dungeon_crawl_player'
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bracket-lib = "^0.8.7"
