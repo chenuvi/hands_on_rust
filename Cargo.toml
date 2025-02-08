@@ -5,4 +5,8 @@ edition = "2021"
 
 [workspace]
 resolver = "2"
-members = ["first_game_flappy_dragon", "first_step_with_rust"]
+members = [
+    "BasicDungeonCrawler/dungeon_crawl_map",
+    "first_game_flappy_dragon",
+    "first_step_with_rust",
+]
